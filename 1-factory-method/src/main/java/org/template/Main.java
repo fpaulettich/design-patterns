@@ -1,28 +1,27 @@
 package org.template;
 
-import org.template.structure.ConcreteCreator;
-import org.template.structure.Creator;
-import org.template.structure.Product;
-import org.template.structure.ProductType;
+import org.template.structure.creator.AudiCreator;
+import org.template.structure.creator.Creator;
+import org.template.structure.creator.ProductType;
+import org.template.structure.product.Product;
 
 public class Main {
 
     public static void main(String[] args) {
-        final Creator factory = new ConcreteCreator();
-        final Product objectA = factory.createProduct(ProductType.TYPE_A, "object A");
-        printLog(objectA);
-        final Product objectB = factory.createProduct(ProductType.TYPE_B, "object B");
-        printLog(objectB);
-        final Product objectC = factory.createProduct(null, "object C");
-        printLog(objectC);
+        final Creator creator = new AudiCreator();
+        final Product car = creator.createProduct(ProductType.CAR, "blue");
+        printLog(car);
+        final Product motorbike = creator.createProduct(ProductType.MOTORBIKE, "red");
+        printLog(motorbike);
+        final Product unknown = creator.createProduct(null, "green");
+        printLog(unknown);
     }
 
     static void printLog(Product product) {
         try {
-            System.out.println(product.name() + " of type: " + product.getProductType());
+            System.out.println(product.getProductType() + " of " + product.color() + " color");
         } catch (NullPointerException e) {
-            System.out.println("Product is null!");
+            System.out.println("Product does not exist!");
         }
     }
-
 }

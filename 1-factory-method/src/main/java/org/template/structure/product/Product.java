@@ -1,4 +1,6 @@
-package org.template.structure;
+package org.template.structure.product;
+
+import org.template.structure.creator.ProductType;
 
 /**
  * Type of the objects that will be created by the Factory.
@@ -6,11 +8,11 @@ package org.template.structure;
 public interface Product {
 
     /**
-     * Returns name of the product.
+     * Returns color of the product.
      *
      * @return {@link String}
      */
-    String name();
+    String color();
 
     /**
      * Returns type of the product.
