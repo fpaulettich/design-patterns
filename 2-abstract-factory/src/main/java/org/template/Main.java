@@ -6,6 +6,10 @@ import org.template.structure.factory.AudiFactory;
 import org.template.structure.product.Motorbike;
 import org.template.structure.product.Car;
 
+/**
+ * Example of Abstract Factory pattern design.
+ * Credits to <a href="https://refactoring.guru/design-patterns/abstract-factory/java/example">Refactor Guru</a> for the example.
+ */
 public class Main {
 
     private static Factory factory;

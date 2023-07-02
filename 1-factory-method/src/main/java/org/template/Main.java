@@ -5,6 +5,10 @@ import org.template.structure.creator.Creator;
 import org.template.structure.creator.ProductType;
 import org.template.structure.product.Product;
 
+/**
+ * Example of Factory Method pattern design.
+ * Credits to <a href="https://refactoring.guru/design-patterns/factory-method/java/example">Refactor Guru</a> for the example.
+ */
 public class Main {
 
     public static void main(String[] args) {

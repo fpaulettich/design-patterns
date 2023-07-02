@@ -6,6 +6,10 @@ import org.template.structure.director.Director;
 import org.template.structure.product.Car;
 import org.template.structure.product.Motorbike;
 
+/**
+ * Example of Builder pattern design.
+ * Credits to <a href="https://refactoring.guru/design-patterns/builder/java/example">Refactor Guru</a> for the example.
+ */
 public class Main {
 
     public static void main(String[] args) {
