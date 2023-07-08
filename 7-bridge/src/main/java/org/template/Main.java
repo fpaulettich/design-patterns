@@ -7,7 +7,7 @@ import org.template.structure.remote.AdvancedRemote;
 import org.template.structure.remote.BasicRemote;
 
 /**
- * Example of Adapter pattern design.
+ * Example of Bridge pattern design.
  * Credits to <a href="https://refactoring.guru/design-patterns/bridge/java/example">Refactor Guru</a> for the example.
  */
 public class Main {
