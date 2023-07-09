@@ -1,5 +1,6 @@
 # Design patterns
-Templates meant to be used as examples of design patterns 
+
+Templates meant to be used as examples of design patterns
 
 1. [Factory Method](1-factory-method) (*aka Virtual Constructor*)
 2. [Abstract Factory](2-abstract-factory) (*aka Kit*)
@@ -10,7 +11,7 @@ Templates meant to be used as examples of design patterns
 7. [Bridge](7-bridge) (*aka Handle/Body*)
 8. [Composite](8-composite)
 9. [Decorator](9-decorator) (*aka Wrapper*)
-10. Facade
+10. [Facade](10-facade)
 11. Proxy (*aka Surrogate*)
 12. Interpreter
 13. Template Method
