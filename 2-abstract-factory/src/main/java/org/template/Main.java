@@ -1,10 +1,10 @@
 package org.template;
 
-import org.template.structure.factory.Factory;
-import org.template.structure.factory.BmwFactory;
 import org.template.structure.factory.AudiFactory;
-import org.template.structure.product.Motorbike;
+import org.template.structure.factory.BmwFactory;
+import org.template.structure.factory.Factory;
 import org.template.structure.product.Car;
+import org.template.structure.product.Motorbike;
 
 /**
  * Example of Abstract Factory pattern design.

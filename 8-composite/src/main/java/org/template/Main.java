@@ -1,6 +1,5 @@
 package org.template;
 
-import org.template.structure.Department;
 import org.template.structure.FinancialDepartment;
 import org.template.structure.HeadDepartment;
 import org.template.structure.SalesDepartment;

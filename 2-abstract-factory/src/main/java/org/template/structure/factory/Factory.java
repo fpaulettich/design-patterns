@@ -1,7 +1,7 @@
 package org.template.structure.factory;
 
-import org.template.structure.product.Motorbike;
 import org.template.structure.product.Car;
+import org.template.structure.product.Motorbike;
 
 /**
  * Factory interface to be called.
